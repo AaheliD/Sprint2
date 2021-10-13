@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="15" time="179.26322">
+    <testcase classname="Automation Testing of Retail Products" name="Add Product" time="12.782506">
+        <system-out><![CDATA[Given User is on the sign in page...........................................passed
+When User enters "admin" and "admin@123"....................................passed
+And clicks on login.........................................................passed
+Then User is redirected to the dashboard....................................passed
+When User clicks on the Product page........................................passed
+Then user is redirected to Products page....................................passed
+Given User clicks on Add Products...........................................passed
+When user is redirected to Add Products page................................passed
+When user adds "", "", "", "", "", "" and ""................................passed
+And clicks on save..........................................................passed
+Then user gets "Warning: Please check the form carefully for errors!" and check if the "" "<Model>" entered is same as seen in the record.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing of Retail Products" name="Add Product 2" time="11.481865">
+        <system-out><![CDATA[Given User is on the sign in page...........................................passed
+When User enters "admin" and "admin@123"....................................passed
+And clicks on login.........................................................passed
+Then User is redirected to the dashboard....................................passed
+When User clicks on the Product page........................................passed
+Then user is redirected to Products page....................................passed
+Given User clicks on Add Products...........................................passed
+When user is redirected to Add Products page................................passed
+When user adds "a", "Cordless_Earphones1", "a", "Air@100", "Air@123", "Air123,@@@" and "a".passed
+And clicks on save..........................................................passed
+Then user gets "Warning: Please check the form carefully for errors!" and check if the "a" "<Model>" entered is same as seen in the record.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing of Retail Products" name="Add Product 3" time="12.33567">
+        <system-out><![CDATA[Given User is on the sign in page...........................................passed
+When User enters "admin" and "admin@123"....................................passed
+And clicks on login.........................................................passed
+Then User is redirected to the dashboard....................................passed
+When User clicks on the Product page........................................passed
+Then user is redirected to Products page....................................passed
+Given User clicks on Add Products...........................................passed
+When user is redirected to Add Products page................................passed
+When user adds "Balloon@123", "Air Balloons@123", "Ball@100", "Ball@100", "Ball@123", "Ball123,@@@" and "Ball@100".passed
+And clicks on save..........................................................passed
+Then user gets "Success: You have modified products!" and check if the "Balloon@123" "<Model>" entered is same as seen in the record.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing of Retail Products" name="Cancel button Verification" time="11.223234">
+        <system-out><![CDATA[Given User is on the sign in page...........................................passed
+When User enters "admin" and "admin@123"....................................passed
+And clicks on login.........................................................passed
+Then User is redirected to the dashboard....................................passed
+When User clicks on the Product page........................................passed
+Then user is redirected to Products page....................................passed
+Given User clicks on Add Products...........................................passed
+When user is redirected to Add Products page................................passed
+And clicks on cancel........................................................passed
+Then user is redirected back................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing of Retail Products" name="Edit Product" time="12.400347">
+        <system-out><![CDATA[Given User is on the sign in page...........................................passed
+When User enters "admin" and "admin@123"....................................passed
+And clicks on login.........................................................passed
+Then User is redirected to the dashboard....................................passed
+When User clicks on the Product page........................................passed
+Then user is redirected to Products page....................................passed
+Given User clicks on Edit Products..........................................passed
+When user is redirected to Edit Products page...............................passed
+When user edits "", "", "", "", "", "" and ""...............................passed
+And clicks on save..........................................................passed
+Then user gets "Warning: Please check the form carefully for errors!" and check if the "" "<Model>" entered is same as seen in the record.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing of Retail Products" name="Edit Product 2" time="11.531921">
+        <system-out><![CDATA[Given User is on the sign in page...........................................passed
+When User enters "admin" and "admin@123"....................................passed
+And clicks on login.........................................................passed
+Then User is redirected to the dashboard....................................passed
+When User clicks on the Product page........................................passed
+Then user is redirected to Products page....................................passed
+Given User clicks on Edit Products..........................................passed
+When user is redirected to Edit Products page...............................passed
+When user edits "a", "Cordless_Earphones1", "a", "Air@100", "Air@123", "Air123,@@@" and "a".passed
+And clicks on save..........................................................passed
+Then user gets "Warning: Please check the form carefully for errors!" and check if the "a" "<Model>" entered is same as seen in the record.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing of Retail Products" name="Edit Product 3" time="11.917087">
+        <system-out><![CDATA[Given User is on the sign in page...........................................passed
+When User enters "admin" and "admin@123"....................................passed
+And clicks on login.........................................................passed
+Then User is redirected to the dashboard....................................passed
+When User clicks on the Product page........................................passed
+Then user is redirected to Products page....................................passed
+Given User clicks on Edit Products..........................................passed
+When user is redirected to Edit Products page...............................passed
+When user edits "Airpods@123", "Cordless_Earphones1", "Air@100", "Air@100", "Air@123", "Air123,@@@" and "Air@100".passed
+And clicks on save..........................................................passed
+Then user gets "Success: You have modified products!" and check if the "Airpods@123" "<Model>" entered is same as seen in the record.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing of Retail Products" name="Cancel button Verification" time="13.029617">
+        <system-out><![CDATA[Given User is on the sign in page...........................................passed
+When User enters "admin" and "admin@123"....................................passed
+And clicks on login.........................................................passed
+Then User is redirected to the dashboard....................................passed
+When User clicks on the Product page........................................passed
+Then user is redirected to Products page....................................passed
+Given User clicks on Edit Products..........................................passed
+When user is redirected to Edit Products page...............................passed
+And clicks on cancel........................................................passed
+Then user is redirected back................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing of Retail Products" name="Filter Products" time="10.186834">
+        <system-out><![CDATA[Given User is on the sign in page...........................................passed
+When User enters "admin" and "admin@123"....................................passed
+And clicks on login.........................................................passed
+Then User is redirected to the dashboard....................................passed
+When User clicks on the Product page........................................passed
+Then user is redirected to Products page....................................passed
+Given User is on the Products page..........................................passed
+When user fills in "Airpods@123","0.0000", "Air@100" and "1"................passed
+And selects "1" and "*".....................................................passed
+And clicks on filter........................................................passed
+Then user gets results according to his filtered choices....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing of Retail Products" name="Filter Products 2" time="12.789793">
+        <system-out><![CDATA[Given User is on the sign in page...........................................passed
+When User enters "admin" and "admin@123"....................................passed
+And clicks on login.........................................................passed
+Then User is redirected to the dashboard....................................passed
+When User clicks on the Product page........................................passed
+Then user is redirected to Products page....................................passed
+Given User is on the Products page..........................................passed
+When user fills in "Car","Car@123", "Car" and "Car@123".....................passed
+And selects "0" and "0".....................................................passed
+And clicks on filter........................................................passed
+Then user gets results according to his filtered choices....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing of Retail Products" name="Copy button Verification" time="10.463095">
+        <system-out><![CDATA[Given User is on the sign in page...........................................passed
+When User enters "admin" and "admin@123"....................................passed
+And clicks on login.........................................................passed
+Then User is redirected to the dashboard....................................passed
+When User clicks on the Product page........................................passed
+Then user is redirected to Products page....................................passed
+Given User is on the Products page..........................................passed
+When User checks product to be copied.......................................passed
+And clicks on Copy..........................................................passed
+Then the product is modified................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing of Retail Products" name="Delete button Verification" time="11.790874">
+        <system-out><![CDATA[Given User is on the sign in page...........................................passed
+When User enters "admin" and "admin@123"....................................passed
+And clicks on login.........................................................passed
+Then User is redirected to the dashboard....................................passed
+When User clicks on the Product page........................................passed
+Then user is redirected to Products page....................................passed
+Given User is on the Products page..........................................passed
+When User checks product to be deleted......................................passed
+And clicks on Delete........................................................passed
+Then the product is modified................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing of Retail Products" name="Sorting" time="14.941755">
+        <system-out><![CDATA[Given User is on the sign in page...........................................passed
+When User enters "admin" and "admin@123"....................................passed
+And clicks on login.........................................................passed
+Then User is redirected to the dashboard....................................passed
+When User clicks on the Product page........................................passed
+Then user is redirected to Products page....................................passed
+Given User is on the Products page..........................................passed
+When User clicks on Product Name............................................passed
+Then Product Names get sorted in descending order...........................passed
+When User clicks on Model...................................................passed
+Then Model get sorted in ascending order....................................passed
+When User clicks on Price...................................................passed
+Then Price get sorted in descending order...................................passed
+When User clicks on Quantity................................................passed
+Then Quantity get sorted in descending order................................passed
+When User clicks on Status..................................................passed
+Then Status get sorted with Enabled ones showing first......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing of Retail Products" name="Pagination" time="13.969202">
+        <system-out><![CDATA[Given User is on the sign in page...........................................passed
+When User enters "admin" and "admin@123"....................................passed
+And clicks on login.........................................................passed
+Then User is redirected to the dashboard....................................passed
+When User clicks on the Product page........................................passed
+Then user is redirected to Products page....................................passed
+When User clicks ">"........................................................passed
+Then User is directed to page no. "2".......................................passed
+When User clicks "<"........................................................passed
+Then User is directed to page no. "1".......................................passed
+When User clicks "3"........................................................passed
+Then User is directed to page no. "3".......................................passed
+When User Clicks >|.........................................................passed
+Then User is directed to page no. "7".......................................passed
+When User Clicks on |<......................................................passed
+Then User is directed to page no. "1".......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing of Retail Products" name="Checkbox" time="8.41942">
+        <system-out><![CDATA[Given User is on the sign in page...........................................passed
+When User enters "admin" and "admin@123"....................................passed
+And clicks on login.........................................................passed
+Then User is redirected to the dashboard....................................passed
+When User clicks on the Product page........................................passed
+Then user is redirected to Products page....................................passed
+Given User checks the first checkbox........................................passed
+Then all the checkboxes will be checked.....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

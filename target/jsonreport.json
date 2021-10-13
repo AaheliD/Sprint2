@@ -1,0 +1,3189 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Sign In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 999200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the sign in page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 102987100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3719546400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login",
+            "match": {
+              "location": "stepdefination.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4911100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1481490700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Product page",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_Product_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2753400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is redirected to Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-11T07:23:09.627Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4333719400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Add Product",
+        "description": "",
+        "id": "automation-testing-of-retail-products;add-product;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 148600300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1429953600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on Add Products",
+            "match": {
+              "location": "stepdefination.user_clicks_on_Add_Products()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19704200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is redirected to Add Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Add_Products_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 317086800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user adds \"\", \"\", \"\", \"\", \"\", \"\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 37
+                }
+              ],
+              "location": "stepdefination.user_adds(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1146585200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clicks on save",
+            "match": {
+              "location": "stepdefination.clicks_on_save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72293500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user gets \"Warning: Please check the form carefully for errors!\" and check if the \"\" \"\u003cModel\u003e\" entered is same as seen in the record",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Warning: Please check the form carefully for errors!\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"\u003cModel\u003e\"",
+                  "offset": 85
+                }
+              ],
+              "location": "stepdefination.user_gets_and_check_if_the_entered_is_same_as_seen_in_the_record(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Sign In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 276300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the sign in page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86892300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3234012900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login",
+            "match": {
+              "location": "stepdefination.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3489200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1084500200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Product page",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_Product_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7596900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is redirected to Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-11T07:23:22.412Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3748834700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Add Product",
+        "description": "",
+        "id": "automation-testing-of-retail-products;add-product;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 143120500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1865249800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on Add Products",
+            "match": {
+              "location": "stepdefination.user_clicks_on_Add_Products()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19188700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is redirected to Add Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Add_Products_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 516756500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user adds \"a\", \"Cordless_Earphones1\", \"a\", \"Air@100\", \"Air@123\", \"Air123,@@@\" and \"a\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Cordless_Earphones1\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"a\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Air@100\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Air@123\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"Air123,@@@\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"a\"",
+                  "offset": 82
+                }
+              ],
+              "location": "stepdefination.user_adds(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 684731400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clicks on save",
+            "match": {
+              "location": "stepdefination.clicks_on_save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86852100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user gets \"Warning: Please check the form carefully for errors!\" and check if the \"a\" \"\u003cModel\u003e\" entered is same as seen in the record",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Warning: Please check the form carefully for errors!\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"a\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"\u003cModel\u003e\"",
+                  "offset": 86
+                }
+              ],
+              "location": "stepdefination.user_gets_and_check_if_the_entered_is_same_as_seen_in_the_record(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Sign In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 321900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the sign in page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 91697100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3408220800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login",
+            "match": {
+              "location": "stepdefination.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3400000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1267597900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Product page",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_Product_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8105200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is redirected to Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-11T07:23:33.894Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4007718500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Add Product",
+        "description": "",
+        "id": "automation-testing-of-retail-products;add-product;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 145694700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1674553600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on Add Products",
+            "match": {
+              "location": "stepdefination.user_clicks_on_Add_Products()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21803700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is redirected to Add Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Add_Products_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 492494800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user adds \"Balloon@123\", \"Air Balloons@123\", \"Ball@100\", \"Ball@100\", \"Ball@123\", \"Ball123,@@@\" and \"Ball@100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Balloon@123\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Air Balloons@123\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Ball@100\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"Ball@100\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"Ball@123\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"Ball123,@@@\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"Ball@100\"",
+                  "offset": 99
+                }
+              ],
+              "location": "stepdefination.user_adds(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1131900600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clicks on save",
+            "match": {
+              "location": "stepdefination.clicks_on_save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81804300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user gets \"Success: You have modified products!\" and check if the \"Balloon@123\" \"\u003cModel\u003e\" entered is same as seen in the record",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success: You have modified products!\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Balloon@123\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"\u003cModel\u003e\"",
+                  "offset": 80
+                }
+              ],
+              "location": "stepdefination.user_gets_and_check_if_the_entered_is_same_as_seen_in_the_record(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Sign In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 383300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the sign in page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95422900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2447978600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login",
+            "match": {
+              "location": "stepdefination.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2933200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1317961800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Product page",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_Product_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6801300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is redirected to Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-11T07:23:46.232Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3981479600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Cancel button Verification",
+        "description": "",
+        "id": "automation-testing-of-retail-products;cancel-button-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 134111600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2436545800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User clicks on Add Products",
+            "match": {
+              "location": "stepdefination.user_clicks_on_Add_Products()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23342200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user is redirected to Add Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Add_Products_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 750874000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "clicks on cancel",
+            "match": {
+              "location": "stepdefination.clicks_on_cancel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24916400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user is redirected back",
+            "match": {
+              "location": "stepdefination.user_is_redirected_back()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Sign In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 455200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the sign in page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86693200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3175139100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login",
+            "match": {
+              "location": "stepdefination.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4008300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2111761400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Product page",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_Product_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2281300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is redirected to Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-11T07:23:57.456Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3875614200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Edit Product",
+        "description": "",
+        "id": "automation-testing-of-retail-products;edit-product;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 133117100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1707321700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User clicks on Edit Products",
+            "match": {
+              "location": "stepdefination.user_clicks_on_Edit_Products()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22638100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user is redirected to Edit Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Edit_Products_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 521341700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user edits \"\", \"\", \"\", \"\", \"\", \"\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepdefination.user_edits_and(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 685788700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "clicks on save",
+            "match": {
+              "location": "stepdefination.clicks_on_save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73665000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user gets \"Warning: Please check the form carefully for errors!\" and check if the \"\" \"\u003cModel\u003e\" entered is same as seen in the record",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Warning: Please check the form carefully for errors!\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"\u003cModel\u003e\"",
+                  "offset": 85
+                }
+              ],
+              "location": "stepdefination.user_gets_and_check_if_the_entered_is_same_as_seen_in_the_record(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Sign In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 151000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the sign in page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86175900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2951288800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login",
+            "match": {
+              "location": "stepdefination.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3377100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1120929000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Product page",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_Product_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1831200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is redirected to Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-11T07:24:09.857Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3798565400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Edit Product",
+        "description": "",
+        "id": "automation-testing-of-retail-products;edit-product;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 154992100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1722772500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User clicks on Edit Products",
+            "match": {
+              "location": "stepdefination.user_clicks_on_Edit_Products()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19537700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user is redirected to Edit Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Edit_Products_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 680720500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user edits \"a\", \"Cordless_Earphones1\", \"a\", \"Air@100\", \"Air@123\", \"Air123,@@@\" and \"a\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Cordless_Earphones1\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"a\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Air@100\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"Air@123\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"Air123,@@@\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"a\"",
+                  "offset": 83
+                }
+              ],
+              "location": "stepdefination.user_edits_and(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 918274700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "clicks on save",
+            "match": {
+              "location": "stepdefination.clicks_on_save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72994200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user gets \"Warning: Please check the form carefully for errors!\" and check if the \"a\" \"\u003cModel\u003e\" entered is same as seen in the record",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Warning: Please check the form carefully for errors!\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"a\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"\u003cModel\u003e\"",
+                  "offset": 86
+                }
+              ],
+              "location": "stepdefination.user_gets_and_check_if_the_entered_is_same_as_seen_in_the_record(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Sign In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 369800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the sign in page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86327500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2905504100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login",
+            "match": {
+              "location": "stepdefination.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2446200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1162669700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Product page",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_Product_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2022300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is redirected to Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-11T07:24:21.390Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3705736200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Edit Product",
+        "description": "",
+        "id": "automation-testing-of-retail-products;edit-product;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 170836700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1859410800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User clicks on Edit Products",
+            "match": {
+              "location": "stepdefination.user_clicks_on_Edit_Products()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19895800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user is redirected to Edit Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Edit_Products_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 688329900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user edits \"Airpods@123\", \"Cordless_Earphones1\", \"Air@100\", \"Air@100\", \"Air@123\", \"Air123,@@@\" and \"Air@100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Airpods@123\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Cordless_Earphones1\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Air@100\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Air@100\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"Air@123\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"Air123,@@@\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"Air@100\"",
+                  "offset": 99
+                }
+              ],
+              "location": "stepdefination.user_edits_and(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1245420200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "clicks on save",
+            "match": {
+              "location": "stepdefination.clicks_on_save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67750500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user gets \"Success: You have modified products!\" and check if the \"Airpods@123\" \"\u003cModel\u003e\" entered is same as seen in the record",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success: You have modified products!\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Airpods@123\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"\u003cModel\u003e\"",
+                  "offset": 80
+                }
+              ],
+              "location": "stepdefination.user_gets_and_check_if_the_entered_is_same_as_seen_in_the_record(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Sign In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 224600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the sign in page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 83363000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2784672900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login",
+            "match": {
+              "location": "stepdefination.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3279200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2077436600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Product page",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_Product_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1756100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is redirected to Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-11T07:24:33.308Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4119997200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Cancel button Verification",
+        "description": "",
+        "id": "automation-testing-of-retail-products;cancel-button-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 113527800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3129354100,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User clicks on Edit Products",
+            "match": {
+              "location": "stepdefination.user_clicks_on_Edit_Products()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19232000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user is redirected to Edit Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Edit_Products_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 675661800,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "clicks on cancel",
+            "match": {
+              "location": "stepdefination.clicks_on_cancel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20762300,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user is redirected back",
+            "match": {
+              "location": "stepdefination.user_is_redirected_back()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Sign In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 256200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the sign in page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88759600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2985177200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login",
+            "match": {
+              "location": "stepdefination.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3331200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1554138600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Product page",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_Product_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2077500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is redirected to Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-11T07:24:46.339Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3856266200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "Filter Products",
+        "description": "",
+        "id": "automation-testing-of-retail-products;filter-products;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 127467700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22011700,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User is on the Products page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_Products_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164930000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user fills in \"Airpods@123\",\"0.0000\", \"Air@100\" and \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Airpods@123\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"0.0000\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Air@100\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 52
+                }
+              ],
+              "location": "stepdefination.user_fills_in_and(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48881700,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "selects \"1\" and \"*\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"*\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefination.selects_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1293366400,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "clicks on filter",
+            "match": {
+              "location": "stepdefination.clicks_on_filter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39878600,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user gets results according to his filtered choices",
+            "match": {
+              "location": "stepdefination.user_gets_results_according_to_his_filtered_choices()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Sign In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 318000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the sign in page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81569300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3481005300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login",
+            "match": {
+              "location": "stepdefination.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4342100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1672480900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Product page",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_Product_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2271100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is redirected to Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-11T07:24:56.526Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6296125400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 61,
+        "name": "Filter Products",
+        "description": "",
+        "id": "automation-testing-of-retail-products;filter-products;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 126079400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20735600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User is on the Products page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_Products_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 165956900,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user fills in \"Car\",\"Car@123\", \"Car\" and \"Car@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Car\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Car@123\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Car\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Car@123\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepdefination.user_fills_in_and(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54180100,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "selects \"0\" and \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"0\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefination.selects_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 844326300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "clicks on filter",
+            "match": {
+              "location": "stepdefination.clicks_on_filter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40037800,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user gets results according to his filtered choices",
+            "match": {
+              "location": "stepdefination.user_gets_results_according_to_his_filtered_choices()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Sign In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 367500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the sign in page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92673300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4047980200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login",
+            "match": {
+              "location": "stepdefination.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3866000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1172227800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Product page",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_Product_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2068600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is redirected to Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-11T07:25:09.316Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3751828100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "Copy button Verification",
+        "description": "",
+        "id": "automation-testing-of-retail-products;copy-button-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 130786200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24423400,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "User is on the Products page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_Products_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32414800,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "User checks product to be copied",
+            "match": {
+              "location": "stepdefination.user_checks_product_to_be_copied()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1180131000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "clicks on Copy",
+            "match": {
+              "location": "stepdefination.clicks_on_Copy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24045600,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "the product is modified",
+            "match": {
+              "location": "stepdefination.the_product_is_modified()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Sign In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 314500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the sign in page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88505800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2927136500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login",
+            "match": {
+              "location": "stepdefination.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3297700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3347352800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Product page",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_Product_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1783700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is redirected to Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-11T07:25:19.781Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3775659500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 71,
+        "name": "Delete button Verification",
+        "description": "",
+        "id": "automation-testing-of-retail-products;delete-button-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 118747200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25558100,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "User is on the Products page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_Products_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33566200,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User checks product to be deleted",
+            "match": {
+              "location": "stepdefination.user_checks_product_to_be_deleted()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37117400,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "clicks on Delete",
+            "match": {
+              "location": "stepdefination.clicks_on_Delete()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1431226200,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "the product is modified",
+            "match": {
+              "location": "stepdefination.the_product_is_modified()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Sign In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 302200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the sign in page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 85547700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3623545900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login",
+            "match": {
+              "location": "stepdefination.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3110000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1625975000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Product page",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_Product_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2118100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is redirected to Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-11T07:25:31.572Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4101853200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 78,
+        "name": "Sorting",
+        "description": "",
+        "id": "automation-testing-of-retail-products;sorting",
+        "after": [
+          {
+            "result": {
+              "duration": 133700100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24370200,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "User is on the Products page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_Products_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 875945800,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "User clicks on Product Name",
+            "match": {
+              "location": "stepdefination.user_clicks_on_Product_Name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52589800,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Product Names get sorted in descending order",
+            "match": {
+              "location": "stepdefination.product_Names_get_sorted_in_descending_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1325498200,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "User clicks on Model",
+            "match": {
+              "location": "stepdefination.user_clicks_on_Model()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52791400,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Model get sorted in ascending order",
+            "match": {
+              "location": "stepdefination.model_get_sorted_in_ascending_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 930128900,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "User clicks on Price",
+            "match": {
+              "location": "stepdefination.user_clicks_on_Price()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54318400,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Price get sorted in descending order",
+            "match": {
+              "location": "stepdefination.price_get_sorted_in_descending_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 884234500,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "User clicks on Quantity",
+            "match": {
+              "location": "stepdefination.user_clicks_on_Quantity()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59888200,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Quantity get sorted in descending order",
+            "match": {
+              "location": "stepdefination.quantity_get_sorted_in_descending_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1055256300,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "User clicks on Status",
+            "match": {
+              "location": "stepdefination.user_clicks_on_Status()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50146400,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "Status get sorted with Enabled ones showing first",
+            "match": {
+              "location": "stepdefination.status_get_sorted_with_Enabled_ones_showing_first()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Sign In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 284100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the sign in page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82789900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2861276600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login",
+            "match": {
+              "location": "stepdefination.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2480100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1232145900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Product page",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_Product_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2053700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is redirected to Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-11T07:25:46.515Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3818432900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 105,
+        "name": "Pagination",
+        "description": "",
+        "id": "automation-testing-of-retail-products;pagination;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 131221900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1511782100,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "User clicks \"\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003e\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefination.user_clicks(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25810100,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "User is directed to page no. \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefination.user_is_directed_to_page_no(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1357894100,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "User clicks \"\u003c\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003c\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefination.user_clicks(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28582000,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "User is directed to page no. \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefination.user_is_directed_to_page_no(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1350432500,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "User clicks \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefination.user_clicks(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23606800,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "User is directed to page no. \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefination.user_is_directed_to_page_no(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 893846800,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "User Clicks \u003e|",
+            "match": {
+              "location": "stepdefination.user_Clicks()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18979400,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "User is directed to page no. \"7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefination.user_is_directed_to_page_no(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 608603800,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "User Clicks on |\u003c",
+            "match": {
+              "location": "stepdefination.user_clicks_on()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18520700,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "User is directed to page no. \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefination.user_is_directed_to_page_no(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Sign In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 390500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the sign in page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 83119000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefination.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3050212900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login",
+            "match": {
+              "location": "stepdefination.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4184300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is redirected to the dashboard",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1037000900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Product page",
+            "match": {
+              "location": "stepdefination.user_clicks_on_the_Product_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2508100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is redirected to Products page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_Products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-11T07:26:00.485Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4034929500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 107,
+        "name": "Checkbox",
+        "description": "",
+        "id": "automation-testing-of-retail-products;checkbox",
+        "after": [
+          {
+            "result": {
+              "duration": 129980500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38759100,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "User checks the first checkbox",
+            "match": {
+              "location": "stepdefination.user_checks_the_first_checkbox()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38108900,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "all the checkboxes will be checked",
+            "match": {
+              "location": "stepdefination.all_the_checkboxes_will_be_checked()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automation Testing of Retail Products",
+    "description": "",
+    "id": "automation-testing-of-retail-products",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/RetailProducts.feature",
+    "tags": []
+  }
+]
