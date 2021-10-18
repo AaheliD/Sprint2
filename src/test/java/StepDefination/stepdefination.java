@@ -617,14 +617,14 @@ public void status_get_sorted_with_Enabled_ones_showing_first() {
 @When("User clicks {string}")
 public void user_clicks(String string) {
 	
-	 driver.findElement(By.xpath("//a[contains(text(),'"+string+"')]")).click();
 	 try {
-			driver.findElement(By.xpath("//td/descendant::a[contains(text(),'Status')]")).click();
+			
+	 driver.findElement(By.xpath("//a[contains(text(),'"+string+"')]")).click();
 
 		}
 		catch(Exception e)
 		{
-			System.out.println("Error: Unable to click on 'Status' "+e);
+			System.out.println("Error: Unable to click on 'page' "+e);
 			Assert.fail();
 		}
 }
